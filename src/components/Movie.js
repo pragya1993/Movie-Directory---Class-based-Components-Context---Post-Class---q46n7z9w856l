@@ -12,6 +12,9 @@ class Movie extends React.Component {
       <div id="movie-banner">
         {movie ? (
           <>
+
+
+          
             <h2>{movie.title}</h2>
             <h2>{movie.year}</h2>
             <h2>{movie.director}</h2>
